@@ -10,6 +10,8 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0ff8c738e5.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
@@ -22,8 +24,8 @@
                     <div class="col-3">
                         <div class="container">
                             <div class="row left-top-bar">
-                                <div class="col-6">Logo</div>
-                                <div class="col-6">quanaonam.com</div>
+                                <div class="col-6"><a href="#">Logo</a></div>
+                                <div class="col-6"><a href="#">quanaonam.com.vn</a></div>
                             </div>
                         </div>
                     </div>
@@ -31,9 +33,9 @@
                     <div class="col-4">
                         <div class="container">
                             <div class="row right-top-bar">
-                                <div class="col-4">Blog</div>
-                                <div class="col-4">About</div>
-                                <div class="col-4">CSKH</div>
+                                <div class="col-4"><a href="#">Blog</a></div>
+                                <div class="col-5"><a href="#">About</a></div>
+                                <div class="col-3"><a href="#">CSKH</a></div>
                             </div>
                         </div>
                     </div>
@@ -42,7 +44,7 @@
         </div>
 
         <div class="container-fluid khuyen-mai">
-            Ưu đãi dành cho bạn mới <a href="#">Khám phá ngay</a>
+            Ưu đãi dành cho bạn mới, <a href="#">Khám phá ngay</a>
         </div>
 
         <div class="container-fluid main-bar">
@@ -53,21 +55,26 @@
                 <div class="col-6">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-2">SALE</div>
-                            <div class="col-md-2">SẢN PHẨM</div>
-                            <div class="col-md-2">THỂ THAO</div>
-                            <div class="col-md-2">ĐỒ LÓT</div>
-                            <div class="col-md-2">PHỤ KIỆN</div>
-                            <div class="col-md-2">IN ÁO</div>
+                            <div class="col-md-2" style="background-color: rgba(255, 8, 0, 0.762);"><a href="#">SALE</a></div>
+                            <div class="col-md-2 menu-bar"><a href="#">SẢN PHẨM</a></div>
+                            <div class="col-md-2 menu-bar"><a href="#">THỂ THAO</a></div>
+                            <div class="col-md-2 menu-bar"><a href="#">ĐỒ LÓT</a></div>
+                            <div class="col-md-2 menu-bar"><a href="#">PHỤ KIỆN</a></div>
+                            <div class="col-md-2 menu-bar"><a href="#">IN LOGO</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-5">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-6">search</div>
-                            <div class="col-lg-3">Login</div>
-                            <div class="col-lg-3">Giỏ hàng</div>
+                    <div class="container">
+                        <div class="row right-top-bar">
+                            <div class="col-md-4"><a href="#"> <!--Thanh tìm kiếm-->
+                                <div class="row">
+                                    <div class="col-6"><input type="text" placeholder="Tìm kiếm sản phẩm" name="search"></div>
+                                    <div class="col-6"><button type="submit"><i class="fa fa-search"></i></button></div>
+                                </div>
+                            </a></div>
+                            <div class="col-md-5 menu-bar"><a href="#">Giỏ hàng <i class="fa-solid fa-cart-plus"></i></a></div>
+                            <div class="col-md-3 menu-bar"><a href="#">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -75,59 +82,59 @@
         </div>
     </header>
 
-    <!--Banner tự động trượt-->
-    <div class="banner">
-        <div class="container-fluid">
-            <div class="container container-banner">
-                <div style="margin-bottom: 20px;">SẢN PHẨM BÁN CHẠY TRONG THÁNG</div>
-
-                <div class="row banner-card">
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="card">
-                            <a href="#">
-                                <img src="img/banner1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                </div>
-                            </a>
+    <!--Danh sách hàng bán chạy-->
+    <section>
+        <div class="best-seller">
+            <div class="container-fluid">
+                <div class="container-best-seller">
+                    <div style="margin-bottom: 10px; font-size: 20px;">SẢN PHẨM BÁN CHẠY TRONG THÁNG</div>
+    
+                    <div class="row best-seller-card">
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/banner1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="card">
-                            <a href="#">
-                                <img src="img/banner1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                </div>
-                            </a>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/banner1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="card">
-                            <a href="#">
-                                <img src="img/banner1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                </div>
-                            </a>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/banner1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="card">
-                            <a href="#">
-                                <img src="img/banner1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                </div>
-                            </a>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/banner1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <section></section>
+    </section>
     <footer>hhh</footer>
 </body>
 

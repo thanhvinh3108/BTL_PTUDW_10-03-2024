@@ -4,13 +4,23 @@
     font-size: 13px;
     font-weight: bolder;
     padding: 10px;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: #c1c1c172;
+        padding: 10px;
+        border-radius: 15px;
+    }
 }
 .khuyen-mai{
-    background-image: linear-gradient(to right, rgb(2, 48, 113),rgb(3, 69, 174),rgb(3, 130, 203),rgba(0, 136, 255, 0.566));
+    background-image: linear-gradient(to right, rgb(2, 48, 113),rgb(3, 69, 174),rgb(5, 145, 226),rgba(174, 211, 243, 0.566));
     text-align: center;
     color: white;
-    font-size: 12px;
-    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
     a{
         color: white;
     }
@@ -22,15 +32,42 @@
     font-size: 13px;
     color: white;
     font-weight: bold;
+    a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .menu-bar:hover{
+        background-color: #c1c1c172;
+    }
+}
+/*CSS cho thanh tìm kiếm*/
+.main-bar input{
+    border: none;  
+    border-radius: 50px;
+}
+input:focus{
+    outline: none;
+}
+.main-bar button{
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    :hover{
+        font-size: large;
+    }
 }
 
-/*Banner*/  
-.container-banner{
-    padding: 40px 5px;
+/*Căn khoảng cách giữa các section*/
+section{
+    margin: 50px 50px;
+}
+
+/*Sản phẩm bán chạy*/  
+.container-best-seller{
     border-bottom: 2px solid #333;
     font-weight: bolder;
 }
-.banner-card .card{
+.best-seller-card .card{
     padding: 10px;
     border: none;
     img{
