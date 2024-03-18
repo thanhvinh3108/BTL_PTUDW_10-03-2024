@@ -18,16 +18,17 @@
     background-image: linear-gradient(to right, rgb(2, 48, 113),rgb(3, 69, 174),rgb(5, 145, 226),rgba(174, 211, 243, 0.566));
     text-align: center;
     color: white;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 10px;
+    font-size: 15px;    
+    padding: 5px;
     a{
         color: white;
     }
 }
+.main-bar-container{
+    padding: 20px;
+}
 .main-bar{
-    background-color: #333;
-    padding: 15px;
+    background-color: #232323;
     text-align: center;
     font-size: 13px;
     color: white;
@@ -39,22 +40,22 @@
     .menu-bar:hover{
         background-color: #c1c1c172;
     }
+    .logo{
+        width: 100px;
+    }
 }
 /*CSS cho thanh tìm kiếm*/
-.main-bar input{
-    border: none;  
-    border-radius: 50px;
-}
-input:focus{
-    outline: none;
-}
-.main-bar button{
+.search-box-input{
     border: none;
+    max-width: 120px;
     border-radius: 50px;
-    background-color: white;
-    :hover{
-        font-size: large;
-    }
+    border: none;
+    background-color: aliceblue;
+}
+.search-box-btn{
+    border-radius: 50px;
+    border: none;
+    background-color: aliceblue;
 }
 
 /*Căn khoảng cách giữa các section*/
