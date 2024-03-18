@@ -1,8 +1,7 @@
 /*Phần header và menu*/
 .top-bar{
     text-align: center;
-    font-size: 13px;
-    font-weight: bolder;
+    font-size: 15px;
     padding: 10px;
     a{
         color: black;
@@ -10,12 +9,12 @@
     }
     a:hover{
         background-color: #c1c1c172;
-        padding: 10px;
+        padding: 5px;
         border-radius: 15px;
     }
 }
 .khuyen-mai{
-    background-image: linear-gradient(to right, rgb(2, 48, 113),rgb(3, 69, 174),rgb(5, 145, 226),rgba(174, 211, 243, 0.566));
+    background-image: linear-gradient(to right, rgb(0, 34, 82),rgb(2, 54, 139),rgb(3, 69, 174),rgb(5, 145, 226),rgb(116, 187, 250));
     text-align: center;
     color: white;
     font-size: 15px;    
@@ -28,7 +27,7 @@
     padding: 20px;
 }
 .main-bar{
-    background-color: #232323;
+    background-color: #0a0e2b;
     text-align: center;
     font-size: 13px;
     color: white;
@@ -45,17 +44,30 @@
     }
 }
 /*CSS cho thanh tìm kiếm*/
-.search-box-input{
-    border: none;
-    max-width: 120px;
-    border-radius: 50px;
-    border: none;
-    background-color: aliceblue;
-}
-.search-box-btn{
-    border-radius: 50px;
-    border: none;
-    background-color: aliceblue;
+.search-bar-container
+{
+    width: 100%;
+    .search-box-input{
+        border: none;
+        width: 120px;
+        padding: 10px;
+        padding-left: 40px;
+        border-radius: 20px;
+        border: none;
+        background-color: aliceblue;
+        margin-bottom: 10px;
+        outline: none;
+        position: relative;
+    }
+  
+    .search-box-btn{
+        border-radius: 50px;
+        border: none;
+        font-size: large;
+        background-color: aliceblue;
+        margin: 5px;
+        position: absolute;
+    }
 }
 
 /*Căn khoảng cách giữa các section*/
@@ -66,22 +78,31 @@ section{
 /*Sản phẩm bán chạy*/  
 .container-best-seller{
     border-bottom: 2px solid #333;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .best-seller-card .card{
-    padding: 10px;
+    margin: 10px;
     border: none;
     img{
-        border-radius: 10px;
+        border-radius: 5px;
     }
     a{
         text-decoration: none;
         color: black;
     }
     a:hover{
-        padding: 10px;
+        padding: 5px;
     }
-    .card-container{
-        padding: 10px;
-    }
+}
+.buy-link {
+    border: none;
+    font-weight: bold;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+.buy-link:hover {
+    background-color: rgba(255, 0, 0, 0.345);
 }

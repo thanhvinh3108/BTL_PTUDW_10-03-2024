@@ -10,7 +10,6 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/0ff8c738e5.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -21,19 +20,19 @@
         <div class="container-fluid top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-4">
                         <div class="container">
-                            <div class="row left-top-bar">
+                            <div class="row">
                                 <div class="col-6"><a href="#"><img src="img/logo.png" alt="logo OOO Clothes"
                                             style="width: 20px;"></a></div>
                                 <div class="col-6"><a href="#">oooclthes.com.vn</a></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-5"></div>
+                    <div class="col-4"></div>
                     <div class="col-4">
                         <div class="container">
-                            <div class="row right-top-bar">
+                            <div class="row">
                                 <div class="col-4"><a href="#">Blog</a></div>
                                 <div class="col-5"><a href="#">About</a></div>
                                 <div class="col-3"><a href="#">CSKH</a></div>
@@ -44,8 +43,8 @@
             </div>
         </div>
 
-        <div class="container-fluid khuyen-mai">
-            Ưu đãi dành cho bạn mới, <a href="#">Khám phá ngay</a>
+        <div class="container-fluid khuyen-mai"> 
+                Ưu đãi dành cho bạn mới, <a href="#">Khám phá ngay</a>  
         </div>
 
         <div class="container-fluid main-bar">
@@ -68,21 +67,31 @@
                 </div>
                 <div class="col-4">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <div class="row">
-                                <div style="display: flex;">
-                                    <div class="col-sm-6"><input class="search-box-input" type="text"
-                                            placeholder="Tìm kiếm.." name="search"></div>
-                                    <div class="col-sm-6">
-                                        <button class="search-box-btn" type="submit">
-                                            <i class="fa fa-search"></i>
-                                        </button>
+                                <div class="col-md-6 search-bar-container">
+                                    <div class="row">
+                                        <div class="col-sm-6" style="display: flex;">
+                                            <input class="search-box-input" type="text" placeholder="Tìm kiếm"
+                                                name="search">
+                                            <button class="search-box-btn" type="submit">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 menu-bar"><a href="#">SẢN PHẨM</a></div>
-                        <div class="col-md-3 menu-bar"><a href="#">SẢN PHẨM</a></div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-6"><a href="#"><i class="fa-solid fa-bag-shopping"
+                                            style="font-size: 30px; background-color: rgb(0, 50, 110); width: 45px; height: 35px; border-radius: 50px;"></i></a>
+                                </div>
+                                <div class="col-6"><a href="#"><i class="fa-solid fa-user"
+                                            style="font-size: 30px; background-color: rgb(0, 50, 110);  width: 45px; height: 35px; border-radius: 50px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,7 +103,16 @@
         <div class="best-seller">
             <div class="container-fluid">
                 <div class="container-best-seller">
-                    <div style="margin-bottom: 10px; font-size: 20px;">SẢN PHẨM BÁN CHẠY TRONG THÁNG</div>
+                    <div style="margin-bottom: 10px; font-size: 20px;">SẢN PHẨM HOT TRONG THÁNG</div>
+
+                    <div class="row container-hot-img">
+                        <img src="img/hot-thang/hot-thang-1.jpg" alt="" style="position: relative;">
+                        <div style="position: absolute; color: rgb(255, 255, 255); left: 60px; bottom: 60px; margin: 15px;">
+                            <h3>Áo Parka Chống UV Bỏ Túi</h3>
+                            <h4>980.000 VND</h4>
+                            <a href="#" class="buy-link">mua ngay</a>
+                        </div>
+                    </div>
 
                     <div class="row best-seller-card">
                         <div class="col-md-3 col-sm-6 col-6">
@@ -142,7 +160,42 @@
             </div>
         </div>
     </section>
-    <footer>hhh</footer>
+
+    <!--Dòng chữ chạy-->
+    <section>
+        <div class="container-fluid" style="background-color: rgb(240, 93, 25); color: aliceblue;">
+            <marquee>
+                Mua càng nhiều - ưu đãi càng lớn. Giảm tới 10% tối đa 100.000 đồng cho lần mua hàng thứ hai.
+            </marquee>
+        </div>
+    </section>
+
+    
+
+    <!--Chân trang-->
+    <footer>
+        <div class="container-fluid p-5" style="background-color: rgb(228, 227, 227);">
+            <p>Áo nam là một trong những trang phục phải có trong tủ đồ của bất kỳ ai. Thấu hiểu điều đó,
+                OOOClothes cho ra mắt top sản phẩm áo nam đáp ứng mọi nhu cầu hằng ngày của chàng.</p>
+            <h4>Lý do nên mua áo của OOOClothes?</h4>
+            <p>
+                Hướng đến sự tối giản, tiện lợi cho nam giới, áo nam OOOClothes mang phong cách thiết kế đơn giản, hiện
+                đại, dễ mặc, dễ phối với mọi hoàn cảnh.
+
+                Truy cập vào oooclothes.com.vn, bạn có thể dễ dàng xây dựng một tủ đồ nam giới với mức giá hợp lý. Với 1,1
+                triệu đơn hàng đã được giao đi (tính đến 2023), chính là minh chứng cho thấy khách hàng đã đánh giá cao
+                và tin yêu OOOClothes như thế nào.
+
+                Tất cả các sản phẩm áo nam OOOClothes đều được sản xuất bởi người Việt từ khâu thiết kế đến khâu hoàn
+                thiện sản phẩm. OOOClothes hợp tác với các nhà máy, xưởng uy tín tại Việt Nam như Thiên Sơn, Sơn Hà,
+                Nobland,... Sản phẩm luôn được đóng gói
+                hắc chắn trong hộp giấy trước khi đến tay người tiêu dùng.
+            </p>
+        </div>
+        <div class="container-fluid bg-black">
+            k
+        </div>
+    </footer>
 </body>
 
 </html>
