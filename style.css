@@ -9,8 +9,12 @@
     }
     a:hover{
         background-color: #c1c1c172;
-        padding: 5px;
+        padding: 5px 20%;
         border-radius: 15px;
+    }
+    .right-top-bar{
+        border-right: 3px solid #4d4d4d;
+        padding-right: 5px;
     }
 }
 .khuyen-mai{
@@ -49,9 +53,9 @@
     width: 100%;
     .search-box-input{
         border: none;
-        width: 120px;
+        width: 100%;
         padding: 10px;
-        padding-left: 40px;
+        padding-left: 35px;
         border-radius: 20px;
         border: none;
         background-color: aliceblue;
@@ -66,22 +70,24 @@
         font-size: large;
         background-color: aliceblue;
         margin: 5px;
-        position: absolute;
     }
 }
-
-/*Căn khoảng cách giữa các section*/
-section{
-    margin: 50px 50px;
+.search-bar-container .search-box-btn {
+    position: absolute; /* Đảm bảo nút tìm kiếm được định vị tuyệt đối trong phần tử cha .search-bar-container */
 }
 
-/*Sản phẩm bán chạy*/  
-.container-best-seller{
+/*section*/
+section{
+    margin: 50px 0px;
+}
+
+/*CSS cho các mục mặt hàng*/  
+.container-section{
     border-bottom: 2px solid #333;
     font-weight: bold;
 }
-.best-seller-card .card{
-    margin: 10px;
+.card-style .card{
+    margin: 10px 0;
     border: none;
     img{
         border-radius: 5px;
@@ -90,13 +96,13 @@ section{
         text-decoration: none;
         color: black;
     }
-    a:hover{
+    img:hover{
         padding: 5px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
 }
 .buy-link {
     border: none;
-    font-weight: bold;
     padding: 5px;
     background-color: red;
     color: white;

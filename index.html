@@ -20,8 +20,8 @@
         <div class="container-fluid top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="container">
+                    <div class="col-3">
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="col-6"><a href="#"><img src="img/logo.png" alt="logo OOO Clothes"
                                             style="width: 20px;"></a></div>
@@ -29,13 +29,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4"></div>
-                    <div class="col-4">
-                        <div class="container">
+                    <div class="col-2"></div>
+                    <div class="col-7">
+                        <div class="container-fluid">
                             <div class="row">
-                                <div class="col-4"><a href="#">Blog</a></div>
-                                <div class="col-5"><a href="#">About</a></div>
-                                <div class="col-3"><a href="#">CSKH</a></div>
+                                <div class="col-4 right-top-bar"><a href="#">Blog</a></div>
+                                <div class="col-4 right-top-bar"><a href="#">About</a></div>
+                                <div class="col-4"><a href="#">CSKH</a></div>
                             </div>
                         </div>
                     </div>
@@ -43,8 +43,10 @@
             </div>
         </div>
 
-        <div class="container-fluid khuyen-mai"> 
-                Ưu đãi dành cho bạn mới, <a href="#">Khám phá ngay</a>  
+        <div class="container-fluid khuyen-mai">
+            Ưu đãi dành cho bạn mới, <a href="#">
+                <img src="img/kham-pha-link.png" alt="" style="width: 130px; padding-bottom: 4px;">
+            </a>
         </div>
 
         <div class="container-fluid main-bar">
@@ -71,7 +73,7 @@
                             <div class="row">
                                 <div class="col-md-6 search-bar-container">
                                     <div class="row">
-                                        <div class="col-sm-6" style="display: flex;">
+                                        <div class="col-sm-6" style="display: flex; text-align: center;">
                                             <input class="search-box-input" type="text" placeholder="Tìm kiếm"
                                                 name="search">
                                             <button class="search-box-btn" type="submit">
@@ -96,31 +98,44 @@
                 </div>
             </div>
         </div>
+        <!--Dòng chữ chạy-->
+        <div class="container-fluid" style="background-color: rgb(28, 28, 28); color: aliceblue;">
+            <marquee>
+                Mua càng nhiều - ưu đãi càng lớn. Giảm tới 10% tối đa 100.000 đồng cho lần mua hàng thứ hai.
+            </marquee>
+        </div>
     </header>
 
     <!--Danh sách hàng bán chạy-->
     <section>
-        <div class="best-seller">
+        <div class="section-style">
             <div class="container-fluid">
-                <div class="container-best-seller">
-                    <div style="margin-bottom: 10px; font-size: 20px;">SẢN PHẨM HOT TRONG THÁNG</div>
+                <div class="container-section">
+                    <div style="margin-bottom: 10px; font-size: 25px;">SẢN PHẨM HOT TRONG THÁNG</div>
 
-                    <div class="row container-hot-img">
-                        <img src="img/hot-thang/hot-thang-1.jpg" alt="" style="position: relative;">
-                        <div style="position: absolute; color: rgb(255, 255, 255); left: 60px; bottom: 60px; margin: 15px;">
+                    <div class="row container-img" style="position: relative;">
+                        <img src="img/hot-thang/hot-thang-banner.jpg" alt="">
+                        <div
+                            style="position: absolute; color: rgb(255, 255, 255); left: 30px; bottom: 20px; margin: 15px;">
                             <h3>Áo Parka Chống UV Bỏ Túi</h3>
                             <h4>980.000 VND</h4>
                             <a href="#" class="buy-link">mua ngay</a>
                         </div>
                     </div>
 
-                    <div class="row best-seller-card">
+                    <div class="row card-style">
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="card">
                                 <a href="#">
-                                    <img src="img/banner1.jpg" class="card-img-top" alt="...">
+                                    <img src="img/hot-thang/hot-thang-1.avif" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
                                     </div>
                                 </a>
                             </div>
@@ -128,9 +143,15 @@
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="card">
                                 <a href="#">
-                                    <img src="img/banner1.jpg" class="card-img-top" alt="...">
+                                    <img src="img/hot-thang/hot-thang-2.avif" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
                                     </div>
                                 </a>
                             </div>
@@ -138,9 +159,15 @@
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="card">
                                 <a href="#">
-                                    <img src="img/banner1.jpg" class="card-img-top" alt="...">
+                                    <img src="img/hot-thang/hot-thang-3.avif" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
                                     </div>
                                 </a>
                             </div>
@@ -148,9 +175,15 @@
                         <div class="col-md-3 col-sm-6 col-6">
                             <div class="card">
                                 <a href="#">
-                                    <img src="img/banner1.jpg" class="card-img-top" alt="...">
+                                    <img src="img/hot-thang/hot-thang-4.avif" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
                                     </div>
                                 </a>
                             </div>
@@ -161,16 +194,450 @@
         </div>
     </section>
 
-    <!--Dòng chữ chạy-->
+
+    <!--Áo-->
     <section>
-        <div class="container-fluid" style="background-color: rgb(240, 93, 25); color: aliceblue;">
-            <marquee>
-                Mua càng nhiều - ưu đãi càng lớn. Giảm tới 10% tối đa 100.000 đồng cho lần mua hàng thứ hai.
-            </marquee>
+        <div class="section-style">
+            <div class="container-fluid">
+                <div class="container-section">
+                    <div style="margin-bottom: 20px; font-size: 30px; font-weight: bold;">ÁO NAM</div>
+
+                    <div class="row container-ao-img" style="position: relative;">
+                        <a href="#"><img src="img/ao/ao-banner.png" alt="" style="width: 100%;"></a>
+                    </div>
+
+                    <div class="row card-style">
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/ao/ao-1.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/ao/ao-2.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/ao/ao-3.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/ao/ao-4.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/ao/ao-5.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/ao/ao-6.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/ao/ao-7.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/ao/ao-8.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    
+
+    <!--Quần-->
+    <section>
+        <div class="section-style">
+            <div class="container-fluid">
+                <div class="container-section">
+                    <div style="margin-bottom: 20px; font-size: 30px; font-weight: bold;">QUẦN NAM</div>
+
+                    <div class="row container-ao-img" style="position: relative;">
+                        <a href="#"><img src="img/quan/quan-banner.png" alt="" style="width: 100%;"></a>
+                    </div>
+
+                    <div class="row card-style">
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/quan/quan-1.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/quan/quan-2.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/quan/quan-3.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/quan/quan-4.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/quan/quan-5.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/quan/quan-6.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/quan/quan-7.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/quan/quan-8.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Phụ kiện-->
+    <section>
+        <div class="section-style">
+            <div class="container-fluid">
+                <div class="container-section">
+                    <div style="margin-bottom: 20px; font-size: 30px; font-weight: bold;">PHỤ KIỆN</div>
+
+                    <div class="row container-ao-img" style="position: relative;">
+                        <a href="#"><img src="img/phu-kien/phu-kien-banner.png" alt="" style="width: 100%;"></a>
+                    </div>
+
+                    <div class="row card-style">
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/phu-kien/phu-kien-1.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/phu-kien/phu-kien-2.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/phu-kien/phu-kien-3.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/phu-kien/phu-kien-4.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/phu-kien/phu-kien-5.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/phu-kien/phu-kien-6.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/phu-kien/phu-kien-7.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card">
+                                <a href="#">
+                                    <img src="img/phu-kien/phu-kien-8.avif" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <a href="#">
+                                            <h4>Áo Parka Chống UV Bỏ Túi</h4>
+                                            <div style="font-size: 13px; color: rgba(115, 115, 115, 0.596);">
+                                                M X XL XXL
+                                            </div>
+                                            <div style="color: rgb(255, 47, 0);">250.000 VND</div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
     <!--Chân trang-->
     <footer>
@@ -182,14 +649,14 @@
                 Hướng đến sự tối giản, tiện lợi cho nam giới, áo nam OOOClothes mang phong cách thiết kế đơn giản, hiện
                 đại, dễ mặc, dễ phối với mọi hoàn cảnh.
 
-                Truy cập vào oooclothes.com.vn, bạn có thể dễ dàng xây dựng một tủ đồ nam giới với mức giá hợp lý. Với 1,1
+                Truy cập vào oooclothes.com.vn, bạn có thể dễ dàng xây dựng một tủ đồ nam giới với mức giá hợp lý. Với
+                1,1
                 triệu đơn hàng đã được giao đi (tính đến 2023), chính là minh chứng cho thấy khách hàng đã đánh giá cao
                 và tin yêu OOOClothes như thế nào.
 
                 Tất cả các sản phẩm áo nam OOOClothes đều được sản xuất bởi người Việt từ khâu thiết kế đến khâu hoàn
                 thiện sản phẩm. OOOClothes hợp tác với các nhà máy, xưởng uy tín tại Việt Nam như Thiên Sơn, Sơn Hà,
-                Nobland,... Sản phẩm luôn được đóng gói
-                hắc chắn trong hộp giấy trước khi đến tay người tiêu dùng.
+                Nobland,... Sản phẩm luôn được đóng gói chắc chắn trong hộp giấy trước khi đến tay người tiêu dùng.
             </p>
         </div>
         <div class="container-fluid bg-black">
